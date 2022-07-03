@@ -1,4 +1,4 @@
-/* ------------------------ Product of Array Except Self ---------------
+/* ------------------------ Climbing stairs ---------------
    Leetcode Question Number : 70
    Leectode Difficulty Tag : Easy
    Leetcode Problem Link : https://leetcode.com/problems/climbing-stairs/
@@ -33,7 +33,7 @@ public:
         memo.resize(n+1, -1);
         int app_1 = approach_1(n);
         return app_1;
-        
+
     }
 };
 
